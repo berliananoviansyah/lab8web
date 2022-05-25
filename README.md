@@ -64,4 +64,34 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 
 
 Lalu untuk mengaksesnya, masukan URL berikut: http://localhost/lab8web/lab8_php_database/
 
-![Membuka_URL](img/CRUD2.png)
+![Membuka_URL](img/CRUD2.png)\
+
+
+
+## 6). Membuat File Koneksi Database
+
+
+```php
+<?php
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db = "latihan1";
+$conn = mysqli_connect($host, $user, $pass, $db);
+if ($conn == false)
+{
+echo "Koneksi ke server gagal.";
+die();
+} else echo "Koneksi berhasil";
+?>
+```
+
+
+![Membuat_File_Koneksi_Database](img/koneksi.png)
+
+
+
+## 7). Membuat File Index Untuk Menampilkan Data (*read*)
+
+
+```php
