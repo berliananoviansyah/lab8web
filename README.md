@@ -366,13 +366,13 @@ function is_select($var, $val) {
 ```
 
 
-![Mengubah_Data](img/ubah.PNG)
+![Mengubah_Data](img/ubah.png)
 
 
 Dengan Hasil:
 
 
-![Mengubah_Data](img/ubah2.PNG)
+![Mengubah_Data](img/ubah2.png)
 
 
 
@@ -390,4 +390,4 @@ header('location: index.php');
 ```
 
 
-![Menghapus_Data](img/hapus.PNG)
+![Menghapus_Data](img/hapus.png)
